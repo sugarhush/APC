@@ -4,5 +4,6 @@
 #include "types.h"
 
 void addition_op(List *head1, List *tail1, List *head2, List *tail2, List **res_head, List **res_tail);
+void print_result(List *head, List *tail);
 
 #endif

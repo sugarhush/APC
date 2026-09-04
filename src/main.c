@@ -31,11 +31,13 @@ int main(int argc, char **argv)
         return FAILURE;
     }
 
-    print_list(head1, tail1, head2, tail2);
+    // print_list(head1, tail1, head2, tail2);
 
     //Addition Operation
     List *res_head=NULL, *res_tail=NULL;
     addition_op(head1, tail1, head2, tail2, &res_head, &res_tail);
+
+    print_result(res_head, res_tail);
     return SUCCESS;
 }
 
